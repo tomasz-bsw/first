@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div.wrapper {
+
+    max-width: 1240px;
+    margin: 0 auto;
+
+
+}
+
+
+
+nav {
+
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+}
+
+nav a {
+
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration-line: none;
+    width: 190px;
+    color: red;
+    font-weight: 400;
+
+    height: 30px;
+    padding: 15px;
+    padding-top: 25px;
+    font-family: arial;
+
+
+
+
+}
+
+nav a:hover {
+    border-bottom: red 2px solid;
+    color: red;
+    font-weight: 500;
+
+
+
+
+
+}
+
+a.btn4 {
+
+
+    /*    font-family: 'Open Sans Condensed', sans-serif;*/
+    font-size: 16px;
+    border-style: none;
+    margin-left: 100px;
+    border: 2px red solid;
+    border-radius: 10px;
+    font-weight: 600;
+
+    letter-spacing: 5px;
+
+
+
+
+
+}
+
+a.btn4:hover {
+    background-color: red;
+    border-radius: 10px;
+    transition: 0.4s;
+    color: white;
+
+
+
+
+}
+
+
+
+header {
+    height: 300px;
+    background-color: cadetblue;
+    background-image: url(antique-1868726_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    border: white 5px solid;
+    border-radius: 25px;
+
+}
+
+main {
+
+    font-family: arial,
+        sans-serif;
+    min-height: 10vh;
+    background-color: white;
+    margin-top: 10px;
+
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    background-color: aqua;
+
+    max-width: 1400px;
+
+
+
+}
+
+main {
+    background-image: url(tools-625620_1920.jpg);
+    background-position: center;
+    border: 2ps black solid;
+    border-radius: 25px;
+    margin-bottom: 25px;
+}
+
+
+
+
+div img {
+
+
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    border: 3px black solid;
+    border-radius: 7px;
+
+
+
+
+}
+
+.red {
+
+    margin: 20px 40px;
+    display: inline-block;
+
+
+}
+
+h1 {
+    font-weight: 200;
+}
+
+footer {
+    border: 2px white solid;
+    min-height: 100px;
+    background-image: url(footer.jpg);
+    margin-bottom: 25px;
+    border-radius: 25px;
+    background-position: center;
+    font-family: 'Ultra', serif;
+    font-size: 25px;
+    color: white;
+
+
+
+}
+
+footer p {
+    margin: 30px 40px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+
+
+}
+
+footer p:hover {}
